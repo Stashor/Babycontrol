@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+            <item
+                android:id="@+id/walk"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Прогулка" />
+            <item
+                android:id="@+id/court"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Двор" />
+            <item
+                android:id="@+id/stop_tracking"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Остановить слежение" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/i_am_here"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Я здесь!!!" />
+            <item
+                android:id="@+id/my_walking"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Моя прогулка" />
+            <item
+                android:id="@+id/my_settings"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Настройки" />
+        </menu>>
+    </item>
+
+</menu>

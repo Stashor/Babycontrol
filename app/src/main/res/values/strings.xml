@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Baby control</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="settings_title">Настройки</string>
+    <string name="action_settings">Настройки</string>
+    <string name="wifi_title">Wi-Fi</string>
+    <string name="wifi_summary">Вкл. или выкл. сеть WiFi</string>
+    <string name="SMS_title">СМС</string>
+    <string name="SMS_summary">Отправлять СМС</string>
+    <string name="title_activity_settings2">Настройки</string>
+    <string name="phone">Телефон</string>
+    <string name="ref_minutes">Обновление</string>
+
+
+    <string-array name="ref_titles">
+        <item>15 минут</item>
+        <item>30 минут</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+    </string-array>
+    <string-array name="ref_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string name="title_activity_maps">Map</string>
+</resources>
